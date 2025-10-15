@@ -1,0 +1,47 @@
+# ==========================
+# Node.js / Python dependencies
+# ==========================
+node_modules/
+__pycache__/
+*.pyc
+
+# ==========================
+# Environment files
+# ==========================
+.env
+.env.local
+.env.*.local
+
+# ==========================
+# Docker files and volumes
+# ==========================
+# Ignore local Docker volumes
+pgdata/
+# Ignore Docker temp files
+docker-compose.override.yml
+*.log
+
+# ==========================
+# IDE / Editor files
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+
+# ==========================
+# OS generated files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Build / output files
+# ==========================
+dist/
+build/
+*.egg-info/
+*.egg
